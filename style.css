@@ -5,3 +5,46 @@
   font-family: "Mulish", sans-serif;
   font-size: 62.5%;
 }
+/* Common */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-left-text {
+  font-size: 3.6rem;
+  font-weight: 800;
+  margin-left: 1.6rem;
+}
+.nav-left-text span {
+  color: #ff5400;
+  font-size: 3.6rem;
+}
+.nav-left img {
+  width: 100%;
+  height: 100%;
+}
+.nav-right ul {
+  display: flex;
+}
+.nav-right li{
+    margin-left: 4.4rem;
+}
+.nav-right__list li:first-child a{
+    color: #ff5400;
+}
+.nav-right a {
+  color: #424247;
+  font-size: 1.8rem;
+}
