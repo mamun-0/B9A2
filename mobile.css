@@ -1,30 +1,62 @@
 /* navbar */
-.hamburger{
-    display: none;
+.hamburger {
+  display: none;
 }
 .hamburger > div {
   height: 2px;
   width: 2.4rem;
   background-color: #000;
 }
-.hamburger__middle{
-    margin: 6px 0;
+.hamburger__middle {
+  margin: 6px 0;
 }
-@media only screen and (max-width:375px) {
-    .hamburger{
-        display: block;
-    }
-    .nav-right{
-        display: none;
-    }
-    .nav-left-text{
-        font-size: 2.1rem;
-    }
-    .nav-left-text span{
-        font-size: 2.1rem;
-    }   
-    .nav-left__icon{
-        width: 2.8rem;
-        height: 3.3rem;
-    }
+@media only screen and (max-width: 375px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-right {
+    display: none;
+  }
+  .nav-left-text {
+    font-size: 2.1rem;
+  }
+  .nav-left-text span {
+    font-size: 2.1rem;
+  }
+  .nav-left__icon {
+    width: 2.8rem;
+    height: 3.3rem;
+  }
+  /* hero section */
+  .hero{
+    padding: 2rem;
+  }
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .hero p{
+    font-size: 1.4rem;
+  }
+  .hero-form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70vw;
+  }
+  .c-input{
+    width: 100%;
+    margin-left: 0;
+    margin: 4px 0;
+  }
+  .btn-submit{
+    width: 100%;
+    margin: 0;
+    margin-top: 4px;
+  }
+  .ml-0{
+    margin-left: 0;
+  }
+  .hero-form{
+    padding: 1.5rem;
+  }
 }
