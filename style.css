@@ -134,9 +134,15 @@ main {
   background: #d84f0b;
 }
 .btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.6rem;
   font-weight: 700;
   margin-left: 2.4rem;
+}
+.search-icon{
+  margin-right: 5px;
 }
 .hero-form {
   display: flex;
