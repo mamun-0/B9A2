@@ -73,6 +73,10 @@ main {
   /* width: 1170px; */
   margin: 0 auto;
 }
+main{
+  padding: 0 2rem;
+}
+
 /* banner section */
 .hero {
   min-height: 70vh;
@@ -305,11 +309,11 @@ main {
   background-color: #ff5400;
   text-align: center;
   border-radius: 1rem;
-  bottom: 13%;
-  right: 2%;
+  bottom: 50%;
+  right: 10%;
   z-index: 10;
   padding: 1rem;
-  transform: rotate(-20deg);
+  transform: rotate(-15deg);
 }
 .discount-batch p {
   font-size: 2.4rem;
