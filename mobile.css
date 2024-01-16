@@ -73,14 +73,26 @@
   .width-50 {
     width: 100%;
   }
-  .section-1_ul{
-    margin-left:5px;
+  .section-1_ul {
+    margin-left: 5px;
   }
-  .section-1__left{
+  .section-1__left {
     margin-bottom: 2rem;
   }
   /* Section-2 */
-  .grid_1, .grid_2, .grid_3{
+  .grid_1,
+  .grid_2,
+  .grid_3 {
     grid-template-columns: 1fr;
+  }
+  /* section 3 */
+  .section-3_cart_container {
+    flex-direction: column;
+  }
+  .place-me-center {
+    justify-content: start;
+  }
+  .section-3_cart_container_2 {
+    width: 100%;
   }
 }
