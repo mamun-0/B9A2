@@ -79,4 +79,8 @@
   .section-1__left{
     margin-bottom: 2rem;
   }
+  /* Section-2 */
+  .grid_1, .grid_2, .grid_3{
+    grid-template-columns: 1fr;
+  }
 }
