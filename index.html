@@ -11,13 +11,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="mobile.css" />
   </head>
   <body>
     <header>
       <nav>
         <div class="nav-left">
-          <div class="nav-left__icon"><img src="./assests/icon.png" alt="Logo" /></div>
+          <div class="nav-left__icon">
+            <img src="./assests/icon.png" alt="Logo" />
+          </div>
           <h2 class="nav-left-text">Hero <span>Travel</span></h2>
         </div>
         <div class="nav-right">
@@ -31,13 +33,40 @@
         </div>
         <!-- hamburger icon -->
         <div class="hamburger">
-            <div></div>
-            <div class="hamburger__middle"></div>
-            <div></div>
+          <div></div>
+          <div class="hamburger__middle"></div>
+          <div></div>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="banner">
+        <div class="hero">
+          <img src="./assests/banner.png" alt="banner image" />
+          <h1>Explore Your Travel</h1>
+          <p>
+            Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
+            adipiscing. In et odio <br />enim ac quis sapien urna eu phasellus.
+          </p>
+          <form class="hero-form" action="#">
+            <input class="c-input ml-0" type="text" placeholder="Where go" />
+            <select class="c-input" name="when" id="when">
+              <option value="" disabled selected>When</option>
+              <option value="12:00PM">12:00PM</option>
+              <option value="1:00PM">1:00PM</option>
+              <option value="2:00PM">2:00PM</option>
+            </select>
+            <select class="c-input" name="select" id="select">
+              <option value="" disabled selected>Select Type</option>
+              <option value="dhaka">Dhaka</option>
+              <option value="ctg">Ctg</option>
+              <option value="sylhet">Sylhet</option>
+            </select>
+            <button class="btn btn-submit" type="submit">Find Now</button>
+          </form>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

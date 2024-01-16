@@ -12,6 +12,9 @@ ul {
 a {
   text-decoration: none;
 }
+.margin-b {
+  margin-bottom: 70px;
+}
 /* navbar */
 nav {
   display: flex;
@@ -38,13 +41,95 @@ nav {
 .nav-right ul {
   display: flex;
 }
-.nav-right li{
-    margin-left: 4.4rem;
+.nav-right li {
+  margin-left: 4.4rem;
 }
-.nav-right__list li:first-child a{
-    color: #ff5400;
+.nav-right__list li:first-child a {
+  color: #ff5400;
 }
 .nav-right a {
   color: #424247;
   font-size: 1.8rem;
+}
+
+/* main  */
+main {
+  /* width: 1170px; */
+  margin: 0 auto;
+}
+/* banner section */
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  );
+}
+.hero img {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 6.4rem;
+  font-weight: 800;
+}
+.hero p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin: 2.4rem 0;
+}
+.c-input {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  font-size: 1.6rem;
+  padding: 0 5px;
+  margin-left: 2.4rem;
+  display: block;
+}
+.btn {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: background 0.5s;
+}
+.btn:hover {
+  background: #d84f0b;
+}
+.btn-submit {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-left: 2.4rem;
+}
+.hero-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1.5rem;
+}
+.ml-0{
+  margin-left: 0;
 }
