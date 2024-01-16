@@ -10,7 +10,14 @@
 .hamburger__middle {
   margin: 6px 0;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 430px) {
+  /* Common */
+  .section-heading {
+    font-size: 2rem;
+  }
+  .section-paragraph {
+    font-size: 1.4rem;
+  }
   .hamburger {
     display: block;
   }
@@ -28,35 +35,48 @@
     height: 3.3rem;
   }
   /* hero section */
-  .hero{
+  .hero {
     padding: 2rem;
   }
   .hero h1 {
     font-size: 2.2rem;
   }
-  .hero p{
+  .hero p {
     font-size: 1.4rem;
   }
-  .hero-form{
+  .hero-form {
     display: flex;
     flex-direction: column;
     padding: 5px;
     width: 70vw;
   }
-  .c-input{
+  .c-input {
     width: 100%;
     margin-left: 0;
     margin: 4px 0;
   }
-  .btn-submit{
+  .btn-submit {
     width: 100%;
     margin: 0;
     margin-top: 4px;
   }
-  .ml-0{
+  .ml-0 {
     margin-left: 0;
   }
-  .hero-form{
+  .hero-form {
     padding: 1.5rem;
+  }
+  /* Section -1 */
+  .section-1 {
+    flex-direction: column;
+  }
+  .width-50 {
+    width: 100%;
+  }
+  .section-1_ul{
+    margin-left:5px;
+  }
+  .section-1__left{
+    margin-bottom: 2rem;
   }
 }
