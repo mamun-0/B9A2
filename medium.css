@@ -1,0 +1,35 @@
+@media only screen and (min-width: 431px) and (max-width: 879px) {
+  html {
+    font-size: 40%;
+    transition: all 0.3s;
+  }
+  .c-input {
+    margin-left: 1rem;
+    transition: all 0.3s;
+  }
+  .btn-submit {
+    margin-left: 1rem;
+    transition: all 0.3s;
+  }
+}
+@media only screen and (max-width: 799px) {
+  .hero-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 70vw;
+    transition: all 0.3s;
+  }
+  .c-input {
+    width: 100%;
+    margin-left: 0;
+    margin: 4px 0;
+    transition: all 0.3s;
+  }
+  .btn-submit {
+    width: 100%;
+    margin: 0;
+    margin-top: 4px;
+    transition: all 0.3s;
+  }
+}
