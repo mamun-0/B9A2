@@ -120,6 +120,10 @@
   .btn-see-all-packages{
     display: none;
   }
+  /* section 5 */
+  .section-5{
+    flex-direction: column;
+  }
   /* Section 6 */
   .section-6{
     flex-direction: column;
