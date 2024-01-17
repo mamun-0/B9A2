@@ -95,6 +95,31 @@
   .section-3_cart_container_2 {
     width: 100%;
   }
+  /* Section 4 */
+  .section-4__tour_container{
+    justify-content: center;
+  }
+  .place-me-first{
+    justify-content: center;
+  }
+  .section-4_cart{
+    padding: 2rem;
+    width: 100%;
+    margin: 0 1rem;
+  }
+  .section-4_cart h2{
+    font-size: 2rem;
+  }
+  .section-4_cart p{
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .section-4_cart__price{
+    margin: 1rem 0;
+  }
+  .btn-see-all-packages{
+    display: none;
+  }
   /* Section 6 */
   .section-6{
     flex-direction: column;
