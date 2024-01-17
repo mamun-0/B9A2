@@ -317,7 +317,24 @@ main {
   margin-top: 5rem;
 }
 /* section 5(optional) */
+.section-5{
+  display: flex;
+}
+.section-5__right{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.bold{
+  font-weight: 800;
+  color: #131318;
+  padding: 1rem 0;
+}
+.section-5__right{
+  color: #131318;
+}
 /* section 6 */
 .section-6 {
   display: flex;
